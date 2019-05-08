@@ -38,7 +38,7 @@ public class Mouse {
         this.alive = verifyIsAlive();
         return true;
     }
-    
+
     public boolean isAlive() {
         return alive;
     }

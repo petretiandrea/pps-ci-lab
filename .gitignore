@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3856c733f949cfb68e72b8025db9426ff98464a7
 # Created by https://www.gitignore.io/api/java,gradle,intellij
 # Edit at https://www.gitignore.io/?templates=java,gradle,intellij
 
@@ -6,6 +10,7 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+<<<<<<< HEAD
 .idea//workspace.xml
 .idea//tasks.xml
 .idea//usage.statistics.xml
@@ -27,6 +32,29 @@
 # Gradle
 .idea//gradle.xml
 .idea//libraries
+=======
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+>>>>>>> 3856c733f949cfb68e72b8025db9426ff98464a7
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -40,7 +68,11 @@
 cmake-build-*/
 
 # Mongo Explorer plugin
+<<<<<<< HEAD
 .idea//mongoSettings.xml
+=======
+.idea/**/mongoSettings.xml
+>>>>>>> 3856c733f949cfb68e72b8025db9426ff98464a7
 
 # File-based project format
 *.iws
@@ -70,7 +102,11 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 # JetBrains templates
+<<<<<<< HEAD
 ___jb_tmp___
+=======
+**___jb_tmp___
+>>>>>>> 3856c733f949cfb68e72b8025db9426ff98464a7
 
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
@@ -125,6 +161,10 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 ### Gradle Patch ###
+<<<<<<< HEAD
 /build/
+=======
+**/build/
+>>>>>>> 3856c733f949cfb68e72b8025db9426ff98464a7
 
 # End of https://www.gitignore.io/api/java,gradle,intellij
