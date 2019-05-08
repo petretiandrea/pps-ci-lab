@@ -1,3 +1,7 @@
+/**
+ * This class is the main class of the project. It represents
+ * a small city like Sterpeti.
+ */
 public class City {
     private final String name;
     private long inhabitants;
